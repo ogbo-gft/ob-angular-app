@@ -2,6 +2,26 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.2.0.
 
+## Overview
+
+ObApp is a modern Angular application that features a sophisticated data table component with advanced filtering capabilities. The application demonstrates best practices in Angular development and showcases the following key features:
+
+- **Advanced Data Table**: A flexible and reusable table component built with Angular Material
+- **Dynamic Column Filtering**: Support for filtering across multiple data types:
+  - Text-based filtering for string columns
+  - Numeric comparisons (>, >=, <, <=, =) for number columns
+  - Date filtering with comparison operators
+  - Status dropdown filtering
+- **Material Design**: Utilizes Angular Material components for a polished, professional UI
+- **Type Safety**: Fully typed components and interfaces for better development experience
+- **Responsive Design**: Modern, responsive layout that works across different screen sizes
+
+The table component supports different column types (string, number, boolean, date, status) and provides an intuitive filtering interface for each type. Users can filter data using:
+- Text input for string columns
+- Numeric comparisons for number columns
+- Dropdown selection for status columns
+- Clear filters functionality (per column and global)
+
 ## Development server
 
 To start a local development server, run:
